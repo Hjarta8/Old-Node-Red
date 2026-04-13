@@ -12978,19 +12978,6 @@
         ]
     },
     {
-        "id": "d9f9f3e7c35f6ece",
-        "type": "ola",
-        "z": "693ca80fe91d889d",
-        "name": "",
-        "host": "127.0.0.1",
-        "port": 9090,
-        "universe": 1,
-        "size": 512,
-        "x": 870,
-        "y": 240,
-        "wires": []
-    },
-    {
         "id": "01f69b31c83b1177",
         "type": "debug",
         "z": "693ca80fe91d889d",
@@ -13004,6 +12991,19 @@
         "statusType": "auto",
         "x": 980,
         "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d9f9f3e7c35f6ece",
+        "type": "ola",
+        "z": "693ca80fe91d889d",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": 9090,
+        "universe": 1,
+        "size": 512,
+        "x": 870,
+        "y": 240,
         "wires": []
     },
     {
@@ -14349,7 +14349,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1380,
+        "x": 1400,
         "y": 460,
         "wires": []
     },
@@ -15690,24 +15690,6 @@
         "wires": []
     },
     {
-        "id": "13ae1aca50af3615",
-        "type": "rpi-gpio in",
-        "z": "9ff5463ec4ead181",
-        "name": "",
-        "pin": "17",
-        "intype": "down",
-        "debounce": "20",
-        "read": false,
-        "bcm": true,
-        "x": 1380,
-        "y": 540,
-        "wires": [
-            [
-                "e3525f4cee803f70"
-            ]
-        ]
-    },
-    {
         "id": "5df6c8c4b187fa3b",
         "type": "link in",
         "z": "9ff5463ec4ead181",
@@ -16176,5 +16158,23 @@
         "x": 2830,
         "y": 700,
         "wires": []
+    },
+    {
+        "id": "13ae1aca50af3615",
+        "type": "rpi-gpio in",
+        "z": "9ff5463ec4ead181",
+        "name": "",
+        "pin": "17",
+        "intype": "down",
+        "debounce": "20",
+        "read": false,
+        "bcm": true,
+        "x": 1380,
+        "y": 540,
+        "wires": [
+            [
+                "e3525f4cee803f70"
+            ]
+        ]
     }
 ]
